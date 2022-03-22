@@ -5,10 +5,18 @@ console.log(2 * 6)
 console.log(10 / 2)
 
 console.log('------------- #6')
-console.log('1 2 3 4 5')
+let numStrT6 = ''
+for (let i = 1; i <= 5; i++) {
+  numStrT6 += i + ' '
+}
+console.log(numStrT6)
 
 console.log('------------- #7')
-console.log('5 4 3 2 1')
+let numStrT7 = ''
+for (let i = 5; i >= 1; i--) {
+  numStrT7 += i + ' '
+}
+console.log(numStrT7)
 
 console.log('------------- #8')
 function getMarkInfo(condition) {
@@ -61,9 +69,7 @@ getDayInfo(7)
 
 console.log('------------- #10')
 const myArr = ['a', 'b', 'c']
-myArr[3] = 1
-myArr[4] = 2
-myArr[5] = 3
+myArr.push(1, 2, 3)
 console.log(myArr)
 
 console.log('------------- #11')
